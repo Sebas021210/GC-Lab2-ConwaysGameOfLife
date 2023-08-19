@@ -16,8 +16,8 @@ struct Color {
 };
 
 Color framebuffer[FRAMEBUFFER_SIZE];
-Color aliveColor = {255, 0, 0, 0}; // White
-Color deadColor = {0, 0, 255, 0};       // Black
+Color aliveColor = {255, 255, 255, 255};
+Color deadColor = {0, 0, 0, 255};
 
 bool cells[FRAMEBUFFER_SIZE] = {false};
 bool cellsNextState[FRAMEBUFFER_SIZE] = {false};
